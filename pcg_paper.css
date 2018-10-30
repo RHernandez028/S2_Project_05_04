@@ -14,3 +14,74 @@
 
 */
 
+html {
+    height: 100%;
+}
+
+h2{
+    font-size: 22px;
+}
+
+p {
+    font-size: 18px;
+}
+/* Header Image and Horizontal Nav */
+body{
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 960px;
+    min-width: 640px;
+    width: 95%;
+    background-color: antiquewhite;
+}
+
+body > header > img{
+    width: 100%;
+}
+
+
+body > header > nav#horazontalNav > ul > li {
+    display: block;
+    float: left;
+    width: 12.5%;
+}
+
+body > header > nav#horazontalNav > ul > li > a{
+    display: block;
+    text-align: center;
+}
+
+/* Horizontal Nav */
+aside{
+    background-color: cadetblue;
+    width: 20%;
+    font-size: 16px;
+    text-decoration: none;
+}
+
+aside > nav#verticalNav > ul > li {
+    display: block;
+    float: left;
+    width: 20%;
+}
+
+
+
+
+/* Paragraphs */
+
+
+
+
+
+
+/* Footer */
+footer{
+    display: block;
+    text-align: center;
+    background-color: rgb(240, 208, 166);
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 5px;
+    padding-bottom: 10px;
+}
